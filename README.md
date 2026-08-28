@@ -73,7 +73,7 @@ Computational Complexity: Rigidly Deterministic O(1) execution time
  Technical Specification & Risk Management
 Engineered to track mechanical over-torques, gear teeth spalling, and ball-screw Jamming in safety-critical flight control electromechanical actuators (EMA) [cl. 1]. The hyper-hardened architecture integrates:
 Synchronous Calibration Linear Decadement: Erases the fittizio initialization plateau, forcing the RUL register to track the operational flight-hour decay continuously row-by-row from tick 1.
-Post-Division Downstream Clamping: Applies a physical saturation boundary to current/speed efficiency ratios explicitly downstream of the mathematical division, isolating the structural Welford registers against pilot maneuver transients or aerodynamic gusts [cl. 1].
+Post-Division Downstream Clamping: Applies a physical saturation boundary to current/speed efficiency ratios explicitly downstream of the mathematical division, isolating the structural Welford registers against pilot maneuver transients or aerodynamic gusts .
 Phase-Lag Protective Characterization: Formally documents the necessary 5-tick persistence window required by airworthiness criteria to filter false alarms, recording a controlled phase-lag to achieve absolute structural integrity [cl. 1].
  Macro-Fleet Stochastic Validation (NASA Gearbox Stress Datasets)
 Validated via continuous real-time stream injection on independent validation lifecycle logs under real real-world load transient variations:
@@ -93,7 +93,7 @@ Walther-Reynolds Viscosity Integration: Couples the running Root-Mean-Square (R
 Deadband Mechanical Floor (0.60 Hz): Implements a rigid amplitude sbarramento, preventing initial high-energy Gaussian noise from triggering false degradation ramps on finite-window baselines [cl. 1].
 MISRA C:2012 Index Hardening: Rejects unsafe signed int pointers for memory navigation. All index counters operate as uint32_t registers to completely eliminate Single-Event Upset (SEU) memory corruption or stack smashing at high altitude [cl. 1].
  Real Real-Data Flight Audit Validation (NASA IMS Bearing Datasets)
-Subjected to extreme accelerated lifecycle testing on the raw laboratory archives [cl. 1]:
+Subjected to extreme accelerated lifecycle testing on the raw laboratory archives:
 NASA_IMS_SET2_B1.mat Ingestion: 100,000 Ticks | MAE: 1674.03 Snapshot | Onset Sincrono Locked (81447)
 NASA_IMS_SET2_B2.mat Ingestion: 100,000 Ticks | MAE: 1686.71 Snapshot | Onset Sincrono Locked (81455)
 Validation Outcome: Mean Absolute Error crolled to ~1680 snapshot, preserving an asymmetric profile with 0% Optimistic Late Predictions (Zero Overestimations) [cl. 1].
@@ -105,7 +105,7 @@ Language: Pure Embedded ISO C99 / Bare-Metal Real-Time Engine
 Hardware Footprint: Exactly 204 Bytes static packed RAM (#pragma pack(push, 1)) | Zero Malloc
 Computational Complexity: Rigidly Deterministic O(1) execution time
  Technical Specification & Silicon Fatigue Framework
-Engineered to track thermo-mechanical cyclic strain, die-attach delamination, and catastrophic Bond-wire liftoff in high-frequency (50 kHz) silicon carbide (SiC) switching power modules without suffering from tactical takeoff heat spikes or pilot maneuver transients [cl. 1]. The fully parametric architecture integrates:
+Engineered to track thermo-mechanical cyclic strain, die-attach delamination, and catastrophic Bond-wire liftoff in high-frequency (50 kHz) silicon carbide (SiC) switching power modules without suffering from tactical takeoff heat spikes or pilot maneuver transients. The fully parametric architecture integrates:
 100% Parametric Equations: Removed all hardcoded magic numbers from the runtime loop, allowing real-time reconfiguration of deadband floors and RUL extrapolation limits at test-bench level [cl. 1].
 Recursive Coffin-Manson Formulation: Continuous discretization of plastic fatigue accumulation (?Tj2) weighted on phase current amplitudes, avoiding non-deterministic runtime rainflow counting array allocations.
 Deadband Adattiva NASA Approved: Threshold breach requires the degradation trend to perform a relative 40% over-shooting beyond the stationary baseline mean, neutralizing thermal transients during takeoff acceleration.
@@ -121,13 +121,12 @@ Language: Pure Embedded ISO C99 / Bare-Metal Real-Time Engine
 Hardware Footprint: Exactly 288 Bytes static packed RAM (#pragma pack(push, 1)) | Zero Malloc
 Computational Complexity: Rigidly Deterministic O(1) Worst-Case Execution Time (WCET)
  Technical Specification & Pure Algebraic Framework
-Engineered for autonomous underwater vehicles (UUV) and torpedo propulsion systems to monitor hydrodynamic micro-cavitation and blade erosion in real time, avoiding heavy Fast Fourier Transforms (FFT) or non-deterministic neural networks [cl. 1]. The architecture delivers 100% algebraic invariance through:
+Engineered for autonomous underwater vehicles (UUV) and torpedo propulsion systems to monitor hydrodynamic micro-cavitation and blade erosion in real time, avoiding heavy Fast Fourier Transforms (FFT) or non-deterministic neural networks . The architecture delivers 100% algebraic invariance through:
 Chronological Linearization Buffer: Eradicated sign-inversion paradoxes by implementing a sequential time-ordered read cycle over the circular data arrays, ensuring strictly positive covariance gradients during degradation [cl. 1].
 Recursive Single-Pass Shannon Entropy: Computes info-theoretic profile degradation over an adaptive window (O(1) space/time) to detect chaotic micro-implosions of vapor bubbles before material mass loss occurs [cl. 1].
 Eradication of Hardcoded Physics: All environmental constants (Kelvin zero absolute shift, reference temperature, underflow floors, and safety warning limits) are externalized as initializable runtime hardware registers.
  Flight Mission Validation (NASA SMU Acoustic Archives)
 Validated under hyper-dynamic propeller loads and extreme acoustic sensor streams:
 Marine_Acoustic_Stream Ingestion: 120,000 High-Frequency Snapshots | MAE: 0.00 Snapshots | Transient Rejection: 100%
-Airworthiness Profile: The integrated adaptive deadband and asynchronous shock filter successfully neutralized 100% of false alarms induced by transient operational maneuvering noise, confining error skewed targets uniquely to absolute conservative fail-safe zones [cl. 1].
-© 2026 Mario Di Cristofano. All rights reserved. Industrial IP Protected. Contact for licensing and B2B deployment evaluation protocols [mario.dicristofano@hotmail.it] [cl. 1].
-<img width="91" height="3121" alt="image" src="https://github.com/user-attachments/assets/17fc2c1d-11cb-4b48-bf6e-1ea48dd83538" />
+Airworthiness Profile: The integrated adaptive deadband and asynchronous shock filter successfully neutralized 100% of false alarms induced by transient operational maneuvering noise, confining error skewed targets uniquely to absolute conservative fail-safe zones.
+© 2026 Mario Di Cristofano. All rights reserved. Industrial IP Protected. Contact for licensing and B2B deployment evaluation protocols [mario.dicristofano@hotmail.it] 
