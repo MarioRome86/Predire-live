@@ -131,4 +131,9 @@ Validated under hyper-dynamic propeller loads and extreme acoustic sensor stream
 Marine_Acoustic_Stream Ingestion: 120,000 High-Frequency Snapshots | MAE: 0.00 Snapshots | Transient Rejection: 100%
 Airworthiness Profile: The integrated adaptive deadband and asynchronous shock filter successfully neutralized 100% of false alarms induced by transient operational maneuvering noise, confining error skewed targets uniquely to absolute conservative fail-safe zones.
 
-© 2026 Mario Di Cristofano. All rights reserved. Industrial IP Protected. Contact for licensing and B2B deployment evaluation protocols [mario.dicristofano@hotmail.it] 
+⚖️ legal: formal protection of proprietary source code under international copyright and eIDAS timestamping
+
+- Registered on Copyright.eu (Certificate eIDAS ID: 14869 ).
+- Core architecture for PREDIRE LIVE L'ECOSISTEMA (v66.17.2 Hardened).
+- All Rights Reserved under Art. 98-99 CPI (Italian Industrial Property Code).
+- Unauthorized usage, compilation, or reverse engineering is strictly prohibited.
