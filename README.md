@@ -1,4 +1,8 @@
-# Predire-live
+# Predire live
+Copyright © 2026 Mario Di Cristofano. Tutti i diritti riservati.
+"Predire Live" è un marchio registrato / opera protetta da diritto d'autore.
+Registrato ufficialmente in Francia (Propriété Intellettuale / Marchio registrato) (Certificate eIDAS ID: 14869 ).
+
 
 PREDIRE LIVE
 Physics-Informed Edge-AI Prognostics Engine (PIPE) for Turbofan HUMS systems. MISRA C:2012 / RTCA DO-178C Level A Compliant. Opaque Pointer Interface.
@@ -130,6 +134,8 @@ Eradication of Hardcoded Physics: All environmental constants (Kelvin zero abso
 Validated under hyper-dynamic propeller loads and extreme acoustic sensor streams:
 Marine_Acoustic_Stream Ingestion: 120,000 High-Frequency Snapshots | MAE: 0.00 Snapshots | Transient Rejection: 100%
 Airworthiness Profile: The integrated adaptive deadband and asynchronous shock filter successfully neutralized 100% of false alarms induced by transient operational maneuvering noise, confining error skewed targets uniquely to absolute conservative fail-safe zones.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ⚖️ legal: formal protection of proprietary source code under international copyright and eIDAS timestamping
 
