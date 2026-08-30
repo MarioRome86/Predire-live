@@ -1,16 +1,21 @@
-# Predire Live
+# Predire Live - Avionics PHM Suite
 
 ## Proprietà Intellettuale e Copyright
 
-Copyright © 2026 **Mario Di Cristofano**. Tutti i diritti riservati. 
+Copyright © 2026 Mario Di Cristofano. All rights reserved. 
 
-* **Nome Tutelato:** "Predire Live"
-* **Tipologia:** Marchio registrato / Opera protetta da diritto d'autore
+* **Nome Tutelato:** "Predire Live"™
+* **Tipologia:** "Predire Live"™ marchio tutelato con anteriorità/ Opera protetta da diritto d'autore
 * **Oggetto della tutela** : Codice sorgente, architettura logica, formule e criteri
 * **Giurisdizione:** Registrato ufficialmente in Francia (Propriété Intellettuelle)
-* **Validità Legale:** Certificato eIDAS ID: 14869 e Deposito con data certa (PEC 13/08)
+* **Validità Legale:** Certificato eIDAS e Deposito con data certa (PEC 13/08)
 
-*Ogni utilizzo non autorizzato del nome "Predire Live", del logo, dell'architettura concettuale e del codice sorgente è severamente vietato e perseguibile a norma di legge.
+### Avviso di Riservatezza e Diffida
+Questo repository ha scopo puramente informativo e illustrativo. Il codice sorgente di produzione e i modelli concettuali di "Predire Live" non sono pubblicati su questa piattaforma e risiedono in infrastrutture private protette.
+
+Ogni utilizzo non autorizzato del nome "Predire Live", dell'architettura concettuale descritta, degli algoritmi o dei criteri scientifici è severamente vietato. 
+
+Sono tassativamente vietate le attività di riproduzione, diffusione, analisi concettuale o reverse engineering non autorizzate (ai sensi degli Artt. 98-99 del Codice della Proprietà Industriale e della Direttiva UE 2016/943 sui segreti commerciali). L'accesso all'architettura logica e al codice sorgente è concesso esclusivamente a partner verificati previa sottoscrizione di un accordo di non divulgazione (NDA).
 
 
 PREDIRE LIVE
@@ -146,7 +151,7 @@ Airworthiness Profile: The integrated adaptive deadband and asynchronous shock 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚖ legal: formal protection of proprietary source code and logical architecture under international copyright, trade secret laws, and eIDAS timestamping
 
-- Registered on Copyright.eu (Certificate eIDAS ID: 14869) and secured via certified priority timestamp (PEC 13/08).
+- Registered on Copyright.eu (Certificate eIDAS ID) and secured via certified priority timestamp (PEC 13/08).
 - Full legal protection extends to the core architecture, mathematical formulas, and scientific criteria of "Predire Live" (including its entire ecosystem of predictive algorithms, v66.17.2 Hardened).
 - All Rights Reserved under Art. 98-99 CPI (Italian Industrial Property Code) and EU Directive 2016/943 (Trade Secrets).
 - Unauthorized usage, compilation, conceptual analysis, or reverse engineering of the architecture is strictly prohibited.
