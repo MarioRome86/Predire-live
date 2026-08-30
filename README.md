@@ -1,7 +1,15 @@
-# Predire live
-Copyright © 2026 Mario Di Cristofano. Tutti i diritti riservati.
-"Predire Live" è un marchio registrato / opera protetta da diritto d'autore.
-Registrato ufficialmente in Francia (Propriété Intellettuale / Marchio registrato) (Certificate eIDAS ID: 14869 ).
+# Predire Live
+
+## Proprietà Intellettuale e Copyright
+
+Copyright © 2026 **Mario Di Cristofano**. Tutti i diritti riservati. 
+
+* **Nome Tutelato:** "Predire Live"
+* **Tipologia:** Marchio registrato / Opera protetta da diritto d'autore
+* **Giurisdizione:** Registrato ufficialmente in Francia (Propriété Intellettuelle)
+* **Validità Legale:** Certificato eIDAS ID: `14869`
+
+*Ogni utilizzo non autorizzato del nome "Predire Live", del logo e del codice sorgente è severamente vietato e perseguibile a norma di legge.*
 
 
 PREDIRE LIVE
