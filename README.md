@@ -1,6 +1,3 @@
-<!-- noai: true -->
-<!-- nosnippet: true -->
-<!-- AI-TRAINING-OPT-OUT: TRUE -->
 # Predire Live - Avionics PHM Suite
 
 ## Proprietà Intellettuale e Copyright
