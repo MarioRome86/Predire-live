@@ -1,21 +1,18 @@
-# Predire Live - Avionics PHM Suite
+Predire Live™ — Avionics & Multi-Domain PHM Suite
 
-## Proprietà Intellettuale e Copyright
+IP Status: Patent Pending | Copyright © 2026 Mario Di Cristofano
 
-Copyright © 2026 Mario Di Cristofano. All rights reserved. 
+Proprietà Intellettuale e Tutela Tecnologica
 
-* **Nome Tutelato:** "Predire Live"™
-* **Tipologia:** "Predire Live"™ marchio tutelato con anteriorità/ Opera protetta da diritto d'autore
-* **Oggetto della tutela** : Codice sorgente, architettura logica, formule e criteri
-* **Giurisdizione:** Registrato ufficialmente in Francia (Propriété Intellettuelle)
-* **Validità Legale:** Certificato eIDAS e Deposito con data certa (PEC 13/08)
+• Brevetto (Patent Pending): L'architettura deterministica di prognostica e gestione dello stato di salute (PHM/IVHM) è oggetto di domanda di brevetto depositata.
+• Marchio: Predire Live™ è un marchio tutelato (registrato presso Propriété Intellettuelle, Francia).
+• Software e Know-How: Il codice sorgente di produzione, i modelli matematici e le strutture dati sono protetti dal diritto d'autore e dalle normative sui segreti commerciali, con paternità e integrità certificate tramite marca temporale qualificata eIDAS e deposito con data certa (13/08/2026).
 
-### Avviso di Riservatezza e Diffida
-Questo repository ha scopo puramente informativo e illustrativo. Il codice sorgente di produzione e i modelli concettuali di "Predire Live" non sono pubblicati su questa piattaforma e risiedono in infrastrutture private protette.
+Ambito del Repository e Accesso Tecnico
 
-Ogni utilizzo non autorizzato del nome "Predire Live", dell'architettura concettuale descritta, degli algoritmi o dei criteri scientifici è severamente vietato. 
-
-Sono tassativamente vietate le attività di riproduzione, diffusione, analisi concettuale o reverse engineering non autorizzate (ai sensi degli Artt. 98-99 del Codice della Proprietà Industriale e della Direttiva UE 2016/943 sui segreti commerciali). L'accesso all'architettura logica e al codice sorgente è concesso esclusivamente a partner verificati previa sottoscrizione di un accordo di non divulgazione (NDA).
+Questo repository ha scopo esclusivamente informativo e illustrativo delle capacità prestazionali della suite. Per ragioni di tutela del segreto industriale, il codice sorgente, le formulazioni analitiche e l'architettura interna risiedono in infrastrutture private.
+Valutazione e Partnership:
+La documentazione tecnica estesa, i benchmark certificabili e l'accesso al codice sorgente sono riservati a partner industriali e integratori di sistema previa sottoscrizione di un Accordo di Riservatezza (NDA). Ogni riproduzione, distribuzione o attività di reverse engineering non autorizzata resta espressamente riservata.
 
 
 PREDIRE LIVE
@@ -151,9 +148,10 @@ Validated under hyper-dynamic propeller loads and extreme acoustic sensor stream
 Marine_Acoustic_Stream Ingestion: 120,000 High-Frequency Snapshots | MAE: 0.00 Snapshots | Transient Rejection: 100%
 Airworthiness Profile: The integrated adaptive deadband and asynchronous shock filter successfully neutralized 100% of false alarms induced by transient operational maneuvering noise, confining error skewed targets uniquely to absolute conservative fail-safe zones.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-⚖ legal: formal protection of proprietary source code and logical architecture under international copyright, trade secret laws, and eIDAS timestamping
 
-- Registered on Copyright.eu (Certificate eIDAS ID) and secured via certified priority timestamp (PEC 13/08).
-- Full legal protection extends to the core architecture, mathematical formulas, and scientific criteria of "Predire Live" (including its entire ecosystem of predictive algorithms, v66.17.2 Hardened).
-- All Rights Reserved under Art. 98-99 CPI (Italian Industrial Property Code) and EU Directive 2016/943 (Trade Secrets).
-- Unauthorized usage, compilation, conceptual analysis, or reverse engineering of the architecture is strictly prohibited.
+⚖️ Intellectual Property & Legal Notice
+
+• Patent Status: Patent Pending — The deterministic multi-domain PHM/IVHM architecture is protected by a filed patent application.
+• Copyright & eIDAS Certification: Source code, mathematical models, and implementation criteria of Predire Live™ (v66.17.2 Hardened) are registered on Copyright.eu (Qualified eIDAS Timestamp) and secured via certified priority filing (13/08/2026).
+• Trade Secrets & Proprietary Rights: All rights reserved under EU Directive 2016/943 and applicable international intellectual property laws. Production source code and internal register architectures are proprietary trade secrets.
+• Permitted Use: This repository is provided strictly for preliminary technical evaluation. Unauthorized reproduction, distribution, or reverse engineering is prohibited. Technical deep-dives and code audits are available to partners under NDA.
